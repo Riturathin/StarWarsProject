@@ -1,0 +1,38 @@
+.planet-search-results {
+	display: block;
+  position: absolute;
+ 	width: 400px;
+  top: 10%;
+  background: #fff;
+  border: 3px solid #1bb1e7;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: cursive;
+  z-index: 1;
+  right: 0;
+}
+
+
+.planets {
+	color: #fff;
+	cursor: pointer;
+}
+
+.title {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and ( max-width: 767px ) {
+	.planet-search-results {
+		left: 0;
+	}
+}
+
+@media screen and ( max-width: 480px ) {
+	.planet-search-results {
+		left: 0;
+		width: 100%;
+	}
+}

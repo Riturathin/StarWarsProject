@@ -1,0 +1,9 @@
+.universe {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: url(https://news-cdn.softpedia.com/images/news2/Half-of-the-Universe-s-Stars-Are-Vagabonds-Aimlessly-Floating-Between-Galaxies-464399-2.jpg);
+}
+
+.universe > h1 {
+	color: #fff;
+}
